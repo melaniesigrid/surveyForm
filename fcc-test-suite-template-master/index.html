@@ -10,34 +10,41 @@
 <body>
   <h1 id="title">Survey Form</h1>
   <p id="description">Please provide your feedback on our performance.</p>
-  <form id="survey-form">
-    <label id="name-label">Name</label>
-    <input id="name" type="text" placeholder="Enter your name" required>
-    <label id="email-label">Email</label>
-    <input id="email" type="email" placeholder="Enter your Email" required>
-    <label id="number-label">Number</label>
-    <input id="number" type="number" min = "0" max = "100" placeholder="Age">
-    <select id="dropdown">
-      <option>Very Satisfied</option>
-      <option>Satisfied</option>
-      <option>Neutral</option>
-      <option>Dissatisfied</option>
-      <option>Very Dissatisfied</option>
-    </select>
-    <p>How often do you use our services?</p>
-    <label><input name = "user-frequency" value ="every-day" type = "radio" checked>Every Day</label>
-    <label><input name = "user-frequency" value = "weekly" type = "radio">Weekly</label>
-    <label><input name = "user-frequency" value = "monthly" type = "radio">Monthly</label>
-    <p>What type of features would you like us to add?</p>
-    <label><input name="features" type="checkbox" value="more-colors">More colors</label>
-    <label><input name="features" type="checkbox" value="more-fonts">More fonts</label>
-    <label><input name="features" type="checkbox" value="more-templates">More templates</label>
-    <label><input name="features" type="checkbox" value="more-images">More images</label>
-    <label><input name="features" type="checkbox" value="more-backgrounds">More backgrounds</label>
-    <p>Do you have any aditional feedback for us?</p>
-    <textarea id="feedback" placeholder="Enter your feedback here..."></textarea>
-    <button type="submit" id="submit">Submit</button>
-  </form>
+    <form id="survey-form">
+      <div id = "survey-section">
+      <label id="name-label">Name</label>
+      <input id="name" type="text" placeholder="Enter your name" required>
+      <br>
+      <br>
+      <label id="email-label">Email</label>
+      <input id="email" type="email" placeholder="Enter your Email" required>
+      <br>
+      <br>
+      <label id="number-label">Number</label>
+      <input id="number" type="number" min="0" max="100" placeholder="Age">
+    </div>
+      <p>How satisfied are you with our services?</p>
+      <select id="dropdown">
+        <option>Very Satisfied</option>
+        <option>Satisfied</option>
+        <option>Neutral</option>
+        <option>Dissatisfied</option>
+        <option>Very Dissatisfied</option>
+      </select>
+      <p>How often do you use our services?</p>
+      <label><input name="user-frequency" value="every-day" type="radio" checked>Every Day</label>
+      <label><input name="user-frequency" value="weekly" type="radio">Weekly</label>
+      <label><input name="user-frequency" value="monthly" type="radio">Monthly</label>
+      <p>What type of features would you like us to add?</p>
+      <label><input name="features" type="checkbox" value="more-colors">More colors</label>
+      <label><input name="features" type="checkbox" value="more-fonts">More fonts</label>
+      <label><input name="features" type="checkbox" value="more-templates">More templates</label>
+      <label><input name="features" type="checkbox" value="more-images">More images</label>
+      <label><input name="features" type="checkbox" value="more-backgrounds">More backgrounds</label>
+      <p>Do you have any aditional feedback for us?</p>
+      <textarea id="feedback" placeholder="Enter your feedback here..."></textarea>
+      <button type="submit" id="submit">Submit</button>
+    </form>
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
   <!--
