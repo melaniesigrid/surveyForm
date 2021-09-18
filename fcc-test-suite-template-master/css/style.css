@@ -1,14 +1,20 @@
-#title{
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
+#title {
     display: flex;
     justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
 }
 
-#description{
+#description {
     display: flex;
     justify-content: center;
+    font-family: 'Roboto', sans-serif;
 }
 
-.survey-content{
+.survey-content {
     display: flex;
     justify-content: center;
+    font-family: 'Roboto', sans-serif;
 }
