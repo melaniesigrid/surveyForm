@@ -1,0 +1,14 @@
+#title{
+    display: flex;
+    justify-content: center;
+}
+
+#description{
+    display: flex;
+    justify-content: center;
+}
+
+.survey-content{
+    display: flex;
+    justify-content: center;
+}
